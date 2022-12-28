@@ -1,0 +1,30 @@
+name: Bug Report
+description: File a bug report
+title: "[Bug]: "
+labels: ["bug"]
+assignees:
+  - puncrafter
+body:
+  - type: dropdown
+    id: modpack
+    attributes:
+      label: Modpack
+      description: Which modpack is there a bug in?
+      options:
+        - MAnA Laboratories
+        - Arcane Twilight
+        - Star Factory
+        - Lunar Laboratory
+        - Reincarnation
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: Describe the bug
+      description: As well as what you expected to happen.
+      placeholder: Tell us what you see!
+      value: ""
+    validations:
+      required: true
