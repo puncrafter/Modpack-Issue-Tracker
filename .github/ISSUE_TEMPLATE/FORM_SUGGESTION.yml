@@ -1,0 +1,30 @@
+name: Feature Request
+description: Request a feature for any modpack.
+title: "[Feature Request]: "
+labels: ["enhancement"]
+assignees:
+  - puncrafter
+body:
+  - type: dropdown
+    id: modpack
+    attributes:
+      label: Modpack
+      description: Which modpack would you like to request a feature for?
+      options:
+        - MAnA Laboratories
+        - Arcane Twilight
+        - Star Factory
+        - Lunar Laboratory
+        - Reincarnation
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: feature-description
+    attributes:
+      label: Describe the feature
+      description: Be as detailed as you can.
+      placeholder: Tell us what you want!
+      value: "The start of something creative."
+    validations:
+      required: true
