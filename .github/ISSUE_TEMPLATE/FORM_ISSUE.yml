@@ -25,6 +25,6 @@ body:
       label: Describe the bug
       description: As well as what you expected to happen.
       placeholder: Tell us what you see!
-      value: ""
+      value: " "
     validations:
       required: true
