@@ -1,7 +1,7 @@
 ---
 name: Feature request
 about: Suggest an idea for any modpack.
-title: ''
+title: "[FEATURE REQUEST]"
 labels: enhancement
 assignees: puncrafter
 

@@ -1,7 +1,7 @@
 ---
 name: Bug report
 about: Report a bug for any modpack.
-title: ''
+title: "[BUG]"
 labels: bug
 assignees: puncrafter
 
