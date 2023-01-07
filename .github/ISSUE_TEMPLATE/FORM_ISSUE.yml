@@ -16,7 +16,7 @@ body:
         - Star Factory
         - Lunar Laboratory
         - Reincarnation
-        - Other
+        - Other Modpack
     validations:
       required: true
   - type: textarea
