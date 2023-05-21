@@ -11,6 +11,7 @@ body:
       label: Modpack
       description: Which modpack is there a bug in?
       options:
+        - Divine Descent
         - MAnA Laboratories
         - Arcane Twilight
         - Star Factory
