@@ -11,6 +11,7 @@ body:
       label: Modpack
       description: Which modpack would you like to request a feature for?
       options:
+        - Divine Descent
         - MAnA Laboratories
         - Arcane Twilight
         - Star Factory
